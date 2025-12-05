@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité - Easy Task</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+        }
+
+        .last-updated {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #34495e;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            border-left: 4px solid #3498db;
+        }
+
+        h3 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #2c3e50;
+        }
+
+        .highlight {
+            background-color: #ecf0f1;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        .contact-info {
+            background-color: #e8f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #3498db;
+        }
+
+        .contact-info strong {
+            color: #2980b9;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Politique de Confidentialité de Easy Task</h1>
+        
+        <p class="last-updated"><strong>Dernière mise à jour : 05 Décembre 2025</strong></p>
+
+        <p>Cette politique de confidentialité décrit comment l'application <strong>Easy Task</strong> (ci-après "l'Application"), développée par <strong>Yann Dipita</strong>, recueille, utilise et protège vos données personnelles.</p>
+
+        <h2>1. Données collectées</h2>
+
+        <p>Nous collectons un minimum de données pour assurer le bon fonctionnement du service :</p>
+
+        <h3>A. Données fournies par l'utilisateur</h3>
+        <ul>
+            <li><strong>Adresse Email</strong> : Utilisée pour la création de compte et l'authentification (via Firebase Auth).</li>
+            <li><strong>Données de paiement</strong> : Si vous souscrivez à l'offre Premium, les transactions sont traitées de manière sécurisée par notre partenaire <strong>Stripe</strong>. Nous ne stockons jamais vos informations bancaires complètes sur nos serveurs.</li>
+        </ul>
+
+        <h3>B. Permissions de l'appareil</h3>
+        <p>L'application peut demander l'accès à certaines fonctionnalités de votre appareil :</p>
+        <ul>
+            <li><strong>Caméra / Photos</strong> : Uniquement si vous choisissez d'ajouter une photo de profil. (<span class="highlight">NSCameraUsageDescription</span>)</li>
+            <li><strong>Notifications</strong> : Pour vous envoyer des rappels concernant vos échéances à venir.</li>
+        </ul>
+
+        <h2>2. Utilisation des données</h2>
+
+        <p>Vos données sont utilisées exclusivement pour :</p>
+        <ul>
+            <li>Vous fournir le service de gestion de tâches.</li>
+            <li>Gérer votre abonnement Premium.</li>
+            <li>Vous envoyer des notifications de rappel (si activées).</li>
+            <li>Améliorer la stabilité de l'application (via des rapports de crash anonymes).</li>
+        </ul>
+
+        <h2>3. Partage des données</h2>
+
+        <p>Nous ne vendons <strong>jamais</strong> vos données personnelles à des tiers.</p>
+        <p>Vos données peuvent être partagées avec nos prestataires de services tiers de confiance, uniquement dans le but de faire fonctionner l'application :</p>
+        <ul>
+            <li><strong>Google Firebase</strong> : Hébergement de base de données, authentification et analyses.</li>
+            <li><strong>Stripe</strong> : Traitement des paiements sécurisés.</li>
+        </ul>
+
+        <h2>4. Sécurité des données</h2>
+
+        <p>Nous mettons en œuvre des mesures de sécurité conformes aux standards de l'industrie pour protéger vos données. Toutes les communications entre l'application et nos serveurs sont chiffrées (HTTPS/SSL).</p>
+
+        <h2>5. Suppression des données</h2>
+
+        <p>Vous avez le droit de demander la suppression complète de votre compte et de toutes les données associées.</p>
+        <p>Vous pouvez effectuer cette demande :</p>
+        <ul>
+            <li>Directement depuis les paramètres de l'application (si l'option est disponible).</li>
+            <li>Ou en nous contactant par email à : <strong>dipitayq@gmail.com</strong></li>
+        </ul>
+
+        <h2>6. Modifications</h2>
+
+        <p>Nous nous réservons le droit de modifier cette politique de confidentialité. Toute modification sera signalée par une mise à jour de la date en haut de ce document.</p>
+
+        <h2>7. Contact</h2>
+
+        <div class="contact-info">
+            <p>Pour toute question concernant cette politique de confidentialité, vous pouvez nous contacter à :</p>
+            <p><strong>Email</strong> : dipitayq@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
